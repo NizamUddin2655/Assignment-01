@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
@@ -108,35 +110,83 @@
                 </div>
 
                 <div class="pricing-card-box" id="pro-card-box">
-                    <h4 class="standard">Standard</h4>
-                    <h1 class="price">$399</h1>
+                    <h4 class="standard pro">Pro</h4>
+                    <h1 class="price pro-price">$749</h1>
                     <p class="person">per person</p>
-                    <hr>
+                    <hr class="horizontal">
                     <ul>
-                       <li class="pricing-items">Access to all 3 conference days</li>
-                       <li class="pricing-items">48 curated technical talks</li>
-                       <li class="pricing-items">2 workshop sessions</li>
-                       <li class="pricing-items">Networking lunch & coffee breaks</li>
-                       <li class="pricing-items">Conference swag bag</li>
-                       <li class="pricing-items">Digital recordings (30 days)</li>
+                       <li class="pricing-items pro-items">Everything in Standard</li>
+                       <li class="pricing-items pro-items">Unlimited workshop access</li>
+                       <li class="pricing-items pro-items">Speaker meet & greet</li>
+                       <li class="pricing-items pro-items">VIP networking dinner</li>
+                       <li class="pricing-items pro-items">Lifetime recording access</li>
+                       <li class="pricing-items pro-items">1-on-1 mentorship (30 min)</li>
                     </ul>
-                    <button class="pricing-button">Get Standard</button>
+                    <button class="pricing-button" id="btn">Get Pro</button>
                 </div>
 
                 <div class="pricing-card-box">
-                    <h4 class="standard">Standard</h4>
-                    <h1 class="price">$399</h1>
-                    <p class="person">per person</p>
+                    <h4 class="standard">Team</h4>
+                    <h1 class="price">$499</h1>
+                    <p class="person">up to 10 people</p>
                     <hr>
                     <ul>
-                       <li class="pricing-items">Access to all 3 conference days</li>
-                       <li class="pricing-items">48 curated technical talks</li>
-                       <li class="pricing-items">2 workshop sessions</li>
-                       <li class="pricing-items">Networking lunch & coffee breaks</li>
-                       <li class="pricing-items">Conference swag bag</li>
-                       <li class="pricing-items">Digital recordings (30 days)</li>
+                       <li class="pricing-items">Everything in Pro (10 seats)</li>
+                       <li class="pricing-items">Dedicated team lounge access</li>
+                       <li class="pricing-items">Private workshop booking</li>
+                       <li class="pricing-items">Company logo on event page</li>
+                       <li class="pricing-items">Recruitment booth (1 day)</li>
+                       <li class="pricing-items">Priority customer support</li>
                     </ul>
-                    <button class="pricing-button">Get Standard</button>
+                    <button class="pricing-button contact">Contact Us</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI part created, Why Join DevConf 2026? -->
+
+        <section>
+            <h1 class="main-title" id="join">Why Join DevConf 2026?</h1>
+            <p class="pricing-subheading">Discover the top reasons why developers, founders, and builders trust DevConf to accelerate their careers.</p>
+
+            <div class="join-devconf-container" id="join-devconf">
+                <div class="join-devconf">
+                    <div class="icon-div">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                   <h4 class="Accelerate">Accelerate Your Skills</h4>
+                   <p class="access">Access over 50+ cutting-edge talks and hands-on workshops covering AI/ML, Cloud, Security, and modern tech stack.</p>
+                   <ul>
+                    <li class="pricing-items">Learn new frameworks faster.</li>
+                    <li class="pricing-items">Deep-dive into practical solutions.</li>
+                   </ul>
+                </div>
+
+                <div class="join-devconf">
+                    <div class="icon-div">
+                        <i class="fa-solid fa-network-wired fa-rocket"></i>
+
+                    </div>
+                   <h4 class="Accelerate">Expand Your Network</h4>
+                   <p class="access">Join 4,000+ tech peers, founders, and industry leaders in a highly vibrant, in-person and virtual environment.</p>
+                   <ul>
+                    <li class="pricing-items">Exclusive networking events.</li>
+                    <li class="pricing-items">Direct access to hiring partners.</li>
+                   </ul>
+                </div>
+
+                <div class="join-devconf">
+                    <div class="icon-div">
+                        <!-- <i class="fa-solid fa-lightbulb fa-rocket"></i> -->
+                        <i class="fa-regular fa-lightbulb fa-rocket"></i>
+
+                    </div>
+                   <h4 class="Accelerate">Discover New Solutions</h4>
+                   <p class="access">Explore a packed Expo Floor with top tech companies and innovative startups showcasing the future of dev tools.</p>
+                   <ul>
+                    <li class="pricing-items">Live product demonstrations.</li>
+                    <li class="pricing-items">Exclusive early access discounts.</li>
+                   </ul>
                 </div>
             </div>
         </section>
