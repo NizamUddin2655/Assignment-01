@@ -10,7 +10,7 @@ body{
 
 nav{
     background-color: #FFFFFF;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     position: sticky;
     top: 0px;
 }
@@ -24,7 +24,7 @@ nav{
     padding: 24px 0px;
 }
 
-ul{
+.menu-items{
     display: flex;
     gap: 24px;
     list-style: none;
@@ -99,4 +99,166 @@ a:hover{
     line-height: 24px;
     color: rgb(238, 238, 238);
     margin-bottom: 20px;
+}
+
+.hero-btn{
+    background-color: #1D4ED8;
+    padding: 25px 62px;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    line-height: 24px;
+    margin-top: 276px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+/* Meet the speakers section style */
+
+.meet-section-container{
+    padding: 80px 10px 136px 10px;
+}
+
+.speakers-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 56px;
+}
+
+.main-title{
+    color: #000102;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+}
+
+.first-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+.card-details{
+    padding: 24px;
+}
+
+.designer-title{
+    color: #1D4ED8;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+}
+
+.name{
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.5px;
+    margin-bottom: 5px;
+}
+
+.designer{
+    color: #575757;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.speakers-images{
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+/* pricing section style */
+
+.pricing-subheading{
+    color: #575757;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.pricing-card-container{
+    padding-top: 48px;
+    padding-bottom: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.pricing-card-box{
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+.pricing-items{
+    padding: 3px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 15px;
+}
+
+.pricing-items::marker{
+    color: #2563EB;
+    font-size: 14px;
+}
+
+.pricing-button{
+    padding: 11px;
+    background-color: transparent;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #2563EB;
+    width: 100%;
+    margin-top: 20px;
+}
+
+hr{
+    margin: 20px 0px;
+    background-color: #E5E7EB;
+    height: 1px;
+    border: none;
+}
+
+.standard{
+    color: #888888;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    margin-bottom: 5px;
+}
+
+.price{
+    color: #0D1B2A;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.person{
+    color: #888888;
+    font-size: 13px;
+    line-height: 19.5px;
 }
