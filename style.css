@@ -121,7 +121,7 @@ a:hover{
 /* Meet the speakers section style */
 
 .meet-section-container{
-    padding: 80px 10px 136px 10px;
+    padding: 80px 10px 80px 10px;
 }
 
 .speakers-card, .join-devconf-container{
@@ -350,4 +350,59 @@ hr{
     color: #0D1B2A;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* footer part style */
+
+.footer-container{
+    background-color: #0D1B2A;
+    padding: 60px 0px;
+}
+
+.child-footer-container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms-of-service{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-hr{
+    background-color: #5757575b;
+    margin: 30px 0px;
+    height: 1px;
+}
+
+.copyright{
+    color: #ffffff60;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.policy-link{
+    display: flex;
+    gap: 24px;
+}
+
+.social-icons{
+    background-color: #2563EB;
+    padding: 7px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    margin-left: 10px;
+    border:1px solid #2564eb00;
+}
+
+.social-icons:hover{
+    background-color: transparent;
+    border-radius: 50%;
+    border:1px solid #2563EB;
+    color: white;
 }
